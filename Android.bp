@@ -1,0 +1,11 @@
+android_app_import {
+        name: "MiCalculator",
+        owner: "xiaomi",
+        apk: "calc.apk",
+        overrides: ["ExactCalculator", "yetCalc"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        product_specific: true,
+}
